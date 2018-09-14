@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- TODO (10): Define CheckBoxPreference for onCreate, onStart, onResume, onPause and onRestart. Use the pref keys from strings.xml -->
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/pref_show_on_create"
+        android:summaryOff="@string/pref_hidden"
+        android:summaryOn="@string/pref_shown"
+        android:title="On Create"
+        />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/pref_show_on_???"
+        android:summaryOff="@string/pref_hidden"
+        android:summaryOn="@string/pref_shown"
+        android:title="On ???"
+        />
+
+</PreferenceScreen>
